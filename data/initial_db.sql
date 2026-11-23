@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS products (id INTEGER PRIMARY KEY, name TEXT NOT NULL, description TEXT NOT NULL, price_toman INTEGER NOT NULL, category TEXT NOT NULL, image_url TEXT NOT NULL DEFAULT '', is_active BOOLEAN NOT NULL DEFAULT 1);
+INSERT OR IGNORE INTO products (id,name,description,price_toman,category) VALUES (1,'رژ لب مایع','رنگی مخملی و ماندگار، مناسب استفاده روزانه',385000,'آرایش لب');
+INSERT OR IGNORE INTO products (id,name,description,price_toman,category) VALUES (2,'کرم پودر','پوشش طبیعی با بافت سبک و جلوه مات',690000,'آرایش صورت');
+INSERT OR IGNORE INTO products (id,name,description,price_toman,category) VALUES (3,'ریمل حجم‌دهنده','افزایش حجم مژه‌ها بدون ریزش زیر چشم',420000,'آرایش چشم');
+INSERT OR IGNORE INTO products (id,name,description,price_toman,category) VALUES (4,'ضد آفتاب SPF50','محافظت بالا و بدون اثر سفیدی روی پوست',535000,'مراقبت پوست');
+INSERT OR IGNORE INTO products (id,name,description,price_toman,category) VALUES (5,'سرم ویتامین C','روشن‌کننده و کمک به شفافیت پوست',780000,'مراقبت پوست');
+INSERT OR IGNORE INTO products (id,name,description,price_toman,category) VALUES (6,'آبرسان هیالورونیک','آبرسان عمیق برای پوست نرم و شاداب',620000,'مراقبت پوست');
+INSERT OR IGNORE INTO products (id,name,description,price_toman,category) VALUES (7,'رژگونه پودری','رنگ طبیعی با ماندگاری طولانی',355000,'آرایش صورت');
+INSERT OR IGNORE INTO products (id,name,description,price_toman,category) VALUES (8,'پالت سایه نود','ترکیب رنگ‌های کاربردی مات و براق',890000,'آرایش چشم');
+INSERT OR IGNORE INTO products (id,name,description,price_toman,category) VALUES (9,'خط چشم ماژیکی','نوک دقیق و ضد لک برای آرایش چشم',310000,'آرایش چشم');
+INSERT OR IGNORE INTO products (id,name,description,price_toman,category) VALUES (10,'پاک‌کننده میسلار','پاک‌کردن آرایش و آلودگی به‌آرامی',295000,'مراقبت پوست');
+INSERT OR IGNORE INTO products (id,name,description,price_toman,category) VALUES (11,'ماسک مو آرگان','نرمی و درخشندگی برای موهای خشک',475000,'مراقبت مو');
+INSERT OR IGNORE INTO products (id,name,description,price_toman,category) VALUES (12,'بالم لب گیاهی','نرم‌کننده و محافظ لب با رایحه ملایم',185000,'مراقبت لب');
