@@ -5,7 +5,7 @@ const products = [
     {
         name: "رژ لب مات لایک",
         price: 145000,
-        image: "https://via.placeholder.com/300x300?text=Lipstick", // اینجا بعداً لینک عکس خودت را می‌گذاری
+        image: "https://"images/1.jpg", // اینجا بعداً لینک عکس خودت را می‌گذاری
         telegramLink: "https://t.me/YOUR_USERNAME" // آیدی تلگرام خودت را اینجا بگذار
     },
     {
@@ -21,3 +21,4 @@ const products = [
         telegramLink: "https://t.me/YOUR_USERNAME"
     }
 ];
+
